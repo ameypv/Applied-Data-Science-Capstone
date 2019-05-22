@@ -7,3 +7,5 @@ The first notebook contains code on scraping the Canadian postal code data into 
 * Only process the cells that have an assigned borough. Ignore cells with a borough that is Not assigned.
 * More than one neighborhood can exist in one postal code area. Combine neighbourhoods with the same postal code area
 * If a cell has a borough but a Not assigned neighborhood, then the neighborhood will be the same as the borough.
+
+The second notebook contains a minor update - concatenating the latitude and longitude coordinates to the existing dataframe to create a new, more comprehensive dataframe.
